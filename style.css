@@ -1,0 +1,73 @@
+body {
+  background: url(bg-pattern-bottom.svg), url(bg-pattern-top.svg);
+  background-color: #19a1ae;
+  background-position: left top, top center;
+  background-repeat: no-repeat;
+  background-size: 30%, 30%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Kumbh Sans";
+}
+.img-one {
+  display: flex;
+  margin: auto;
+  margin-top: -55px;
+  border: 5px solid #ffffff;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: 35%;
+  padding: 0;
+}
+.bg-img {
+  border-radius: 15px 15px 0 0;
+}
+img {
+  max-width: 100%;
+}
+.main {
+  border-radius: 15px;
+  position: relative;
+  background-color: white;
+  height: 374px;
+}
+.name {
+  text-align: center;
+  margin-top: 65px;
+  color: #2e3349;
+  font-weight: 900;
+  margin-bottom: 0;
+  font-size: 18px;
+}
+.age {
+  font-weight: 400;
+  color: #6b7082;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 9px;
+}
+.underline {
+  background-color: #e8e9ec;
+  height: 1px;
+  margin: 20px 0 0px 0;
+}
+.main-two {
+  display: flex;
+}
+.number {
+  font-weight: 900;
+  color: #2e3349;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.info {
+  font-weight: 400;
+  color: #6b7082;
+  text-align: center;
+  letter-spacing: 1px;
+  margin-top: 0;
+}
+.div-one {
+  margin: 0 0 10px 40px;
+}
