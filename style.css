@@ -1,8 +1,8 @@
 body {
-  background: url(bg-pattern-bottom.svg), url(bg-pattern-top.svg);
+  background: url(bg-pattern-top.svg), url(bg-pattern-bottom.svg);
   background-color: #19a1ae;
-  background-position: -100vh -90vh, 60px 50vh;
-  background-repeat: no-repeat;
+  background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+  background-repeat: no-repeat, no-repeat;
   height: 100vh;
   display: flex;
   align-items: center;
