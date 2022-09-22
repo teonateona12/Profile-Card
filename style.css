@@ -1,14 +1,13 @@
 body {
   background: url(bg-pattern-bottom.svg), url(bg-pattern-top.svg);
   background-color: #19a1ae;
-  background-position: left top, top center;
+  background-position: -100vh -90vh, 60px 50vh;
   background-repeat: no-repeat;
-  background-size: 30%, 30%;
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "Kumbh Sans";
+  font-family: "Kumbh Sans", sans-serif;
 }
 .img-one {
   display: flex;
@@ -40,12 +39,16 @@ img {
   margin-bottom: 0;
   font-size: 18px;
 }
-.age {
+.age,
+.london {
   font-weight: 400;
   color: #6b7082;
   text-align: center;
   margin-bottom: 0;
   margin-top: 9px;
+}
+.london {
+  font-size: 14px;
 }
 .underline {
   background-color: #e8e9ec;
@@ -56,18 +59,22 @@ img {
   display: flex;
 }
 .number {
-  font-weight: 900;
   color: #2e3349;
   text-align: center;
-  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 9px;
 }
 .info {
-  font-weight: 400;
-  color: #6b7082;
   text-align: center;
   letter-spacing: 1px;
   margin-top: 0;
+  color: #6b7082;
+  font-weight: 400;
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  line-height: 12px;
 }
 .div-one {
-  margin: 0 0 10px 40px;
+  margin: 0 0 10px 50px;
 }
